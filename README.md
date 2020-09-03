@@ -11,5 +11,4 @@ conda install numpy h5py transformers
 conda install cudatoolkit=9.0 -c pytorch
 pip install allennlp==0.8.0
 pip install sentence-transformers
-pip install git+git://github.com/pytorch/vision.git@24577864e92b72f7066e1ed16e978e873e19d13d
 ```
