@@ -44,7 +44,7 @@ class KnowledgeExtraction():
                 results = self.hash_table[keyword]
                 random.shuffle(results)
                 if self.limit < len(results):
-                    results = results[:100]
+                    results = results[:self.limit]
             knowledges += results
         knowledges_text = [knowledge['text'] for knowledge in knowledges]
         return knowledges_text#knowledges, knowledges_text
