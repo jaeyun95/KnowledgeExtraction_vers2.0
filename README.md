@@ -1,6 +1,9 @@
 ## This is knowledge extraction system version 2.0
 
 
+
+original version use only bert and pooling, version 2.0 use sbert
+
 # Setting up Environment
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
